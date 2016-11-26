@@ -4,7 +4,7 @@ This README would normally document whatever steps are necessary to get your app
 
 ### What is this repository for? ###
 
-* Function to calculate Time based on Hour and angle between hour and Minute
+* This is A template for an Banking Application.
 * Version 1
 
 ### How do I get set up? ###
@@ -21,7 +21,9 @@ This README would normally document whatever steps are necessary to get your app
 
 ### Description
 
-1- Checks whether the given hour is greater then 12.
-2- calculates the angle difference for hour
-3-  find the number of Minutes
-4- each difference of an minutes is 5 so the remaining difference is multiplied by 5
+however its not an complete Application with Orignal Data , this is an skeleton for an application.
+Technologies Used:
+FE Framework - Angular.
+Designing - HTML , CSS and SASS
+Libararies Used:
+Angular Bootstrap font icons Jquery GoogleMap
