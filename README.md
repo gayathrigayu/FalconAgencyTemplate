@@ -18,3 +18,10 @@ This README would normally document whatever steps are necessary to get your app
 ### Who do I talk to? ###
 
 * Gayathri Mohan
+
+### Description
+
+1- Checks whether the given hour is greater then 12.
+2- calculates the angle difference for hour
+3-  find the number of Minutes
+4- each difference of an minutes is 5 so the remaining difference is multiplied by 5
