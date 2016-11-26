@@ -6,6 +6,7 @@ This README would normally document whatever steps are necessary to get your app
 
 * This is A template for an Banking Application.
 * Version 1
+*  Once download Run inside the Server , because its angular webapp needs Localhost to run
 
 ### How do I get set up? ###
 
