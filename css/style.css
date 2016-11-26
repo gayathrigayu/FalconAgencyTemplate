@@ -1,0 +1,1415 @@
+.inernet-banking {
+  /* ================================================================== */
+  /* a. Common Styles
+  
+  /* ================================================================== */
+  /* Left clearing for flexible columns - columns that changes width in
+  different screen sizes. Makes columns with different heights align
+  properly.
+  --------------------------------------------------------------------- */
+  /* first column in default screen */
+  /* first column in medium size screens */
+  /* Flex Slider
+  /* ------------------------------------------------------------------ */
+  /* Reset */
+  /* Necessary Styles */
+  /* Hide the slides before the JS is loaded. Avoids image jumping */
+  /* Suggested container for slide animation setups. Can replace this with your own */
+  /* Clearfix for .slides */
+  /* ================================================================== */
+  /* b. Header Styles
+  
+  /* ================================================================== */
+  /* header logo */
+  /* primary navigation
+  --------------------------------------------------------------------- */
+  /* nav-wrap */
+  /* hide toggle button */
+  /* Links */
+  /* ================================================================== */
+  /* c. Intro Section
+  
+  /* ================================================================== */
+  /* FlexSlider Intro Slider Styles */
+  /* Direction Navigation
+  --------------------------------------------------------------- */
+  /* ================================================================== */
+  /* d. accounts
+  
+  /* ================================================================== */
+  /* ================================================================== */
+  /* e. Portfolio
+  
+  /* ================================================================== */
+  /* Portfolio Content */
+  /* on hover */
+  /* Reveal Modal Plugin Styles
+  ---------------------------------------------------*/
+  /* ================================================================== */
+  /* f. Journal
+  
+  /* ================================================================== */
+  /* post header */
+  /* post meta */
+  /* post content */
+  /* ================================================================== */
+  /* g. insurance
+  
+  /* ================================================================== */
+  /* process */
+  /* Team Members */
+  /* Testimonials
+  /* ------------------------------------------------------------------ */
+  /* ================================================================== */
+  /* h. Call To Action
+  
+  /* ================================================================== */
+  /* ================================================================== */
+  /* i. Map
+  
+  /* ================================================================== */
+  /* ================================================================== */
+  /* j. Contact
+  
+  /* ================================================================== */
+  /* contact form */
+  /* contact sidebar */
+  /* ================================================================== */
+  /* k. Blog Post
+  
+  /* ================================================================== */
+  /* hide sep */
+  /* post image */
+  /* post content */
+  /* tags */
+  /* bio */
+  /* post-nav */
+  /* Comments
+  /* ------------------------------------------------------------------ */
+  /* Comments List */
+  /* children */
+  /* comment form */
+  /* journal bottom nav */
+  /* ================================================================== */
+  /* l. Blog Entries
+  
+  /* ================================================================== */
+  /* more link */
+  /* Pagination */
+  /* bottom-block */
+  /* ================================================================== */
+  /* m. footer
+  
+  /* ================================================================== */
+  /* copyright */
+  /* social links */
+  /* ================================================================== */
+  /* n. Media Queries
+  
+  /* ================================================================== */
+  /* small screens
+  --------------------------------------------------------------------- */
+  /* mobile wide
+  ---------------------------------------------------------------------- */
+  /* mobile narrow
+    -------------------------------------------------------------------------- */ }
+  .inernet-banking .homeList li {
+    color: #000; }
+  .inernet-banking .txt1 {
+    color: #ffcc00;
+    text-align: center; }
+  .inernet-banking .txt2 {
+    font-size: 20px;
+    text-align: center;
+    color: #fff; }
+  .inernet-banking .txt3 {
+    font-size: 18px;
+    text-align: center;
+    color: #fff; }
+  .inernet-banking #intro .carousel {
+    margin-top: 100px; }
+    .inernet-banking #intro .carousel .carousel-inner .item.active {
+      min-height: 300px; }
+  .inernet-banking #myCarousel2 .item.active {
+    min-height: 200px; }
+  .inernet-banking #myCarousel2 .carousel-indicators .active {
+    background-color: #ffffff; }
+  .inernet-banking .bg-first {
+    background: rgba(251, 243, 2, 0.75); }
+  .inernet-banking .bg-second {
+    background: #efefef; }
+  .inernet-banking .bg-third {
+    background: #dff340;
+    padding: 20px !important; }
+  .inernet-banking .bg-fourth {
+    background: #e8f776;
+    padding: 20px !important; }
+  @media only screen and (max-width: 767px) {
+    .inernet-banking .showmobile-cls {
+      display: block !important;
+      padding: 12px 55px 24px 32px !important;
+      background: #4c4e5a;
+      margin: 0;
+      clear: both; }
+    .inernet-banking .hidemob-cls {
+      height: auto;
+      display: none;
+      clear: both; }
+    .inernet-banking .row {
+      width: 100%; }
+    .inernet-banking .mobile #nav-wrap {
+      top: 10px !important; }
+    .inernet-banking .mobile #nav-wrap ul#nav li a {
+      padding: 5px !Important; } }
+  .inernet-banking .modal-dialog {
+    margin: 116px auto; }
+  .inernet-banking .pop-up-home {
+    background: #fff; }
+    .inernet-banking .pop-up-home .popup-close {
+      padding-right: 20px !important;
+      font-size: 20px;
+      padding: 8px; }
+  .inernet-banking .navbar-toggle .icon-bar {
+    background: #fff; }
+  .inernet-banking .navbar-toggle {
+    background: yellow; }
+  .inernet-banking .section-head h2 {
+    font: 30px/42px montserrat-bold, sans-serif; }
+  .inernet-banking .desc {
+    font: 14px/24px opensans-regular, sans-serif; }
+  .inernet-banking .intro {
+    font: 20px/36px opensans-light, sans-serif; }
+  .inernet-banking .first {
+    clear: left; }
+  .inernet-banking .m-first {
+    clear: none; }
+  .inernet-banking .flexslider a:active,
+  .inernet-banking .flexslider a:focus {
+    outline: none; }
+  .inernet-banking .slides, .inernet-banking .flex-control-nav,
+  .inernet-banking .flex-direction-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+  .inernet-banking .slides li {
+    margin: 0; }
+  .inernet-banking .flexslider {
+    position: relative;
+    zoom: 1;
+    margin: 0;
+    padding: 0; }
+  .inernet-banking .flexslider .slides {
+    zoom: 1; }
+  .inernet-banking .flexslider .slides > li {
+    position: relative; }
+  .inernet-banking .flexslider .slides > li {
+    display: none;
+    -webkit-backface-visibility: hidden; }
+  .inernet-banking .flex-container {
+    zoom: 1;
+    position: relative; }
+  .inernet-banking .slides:before,
+  .inernet-banking .slides:after {
+    content: " ";
+    display: table; }
+  .inernet-banking .slides:after {
+    clear: both; }
+  .inernet-banking header {
+    height: 54px;
+    width: 100%;
+    z-index: 99999;
+    background: url(../images/k-opacity-70.png);
+    position: fixed;
+    top: 0;
+    left: 0; }
+  .inernet-banking header.static {
+    background: #232629;
+    position: static; }
+  .inernet-banking header .logo {
+    position: relative;
+    height: 54px;
+    width: 150px;
+    float: left; }
+  .inernet-banking header .logo a {
+    display: block;
+    padding: 0;
+    margin: 0;
+    height: 18px;
+    width: 91px;
+    line-height: 18px;
+    color: #ffcc00;
+    position: absolute;
+    left: 12px;
+    top: 16px; }
+  .inernet-banking #nav-wrap ul, .inernet-banking #nav-wrap li, .inernet-banking #nav-wrap a {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none; }
+  .inernet-banking #nav-wrap {
+    position: relative;
+    font: 13px opensans-regular, sans-serif;
+    float: left; }
+  .inernet-banking #nav-wrap > a {
+    display: none; }
+  .inernet-banking ul#nav {
+    min-height: 54px;
+    width: auto;
+    /* left align the menu */
+    text-align: left; }
+  .inernet-banking ul#nav li {
+    position: relative;
+    list-style: none;
+    height: 54px;
+    display: inline-block; }
+  .inernet-banking ul#nav > li.active a {
+    background: #ffcc00;
+    color: #fff !important; }
+  .inernet-banking ul#nav li a {
+    display: block;
+    padding: 0 14px;
+    line-height: 54px;
+    text-decoration: none;
+    text-align: left;
+    color: #fff;
+    -webkit-transition: color .2s ease-in-out;
+    -moz-transition: color .2s ease-in-out;
+    -o-transition: color .2s ease-in-out;
+    -ms-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out; }
+  .inernet-banking ul#nav li a:active {
+    background-color: #ffcc00;
+    color: #fff; }
+  .inernet-banking ul#nav li:hover > a,
+  .inernet-banking ul#nav li.active a, .inernet-banking ul#nav li a:focus {
+    background-color: #ffcc00;
+    color: #fff; }
+  .inernet-banking .carousel-indicators .active {
+    background-color: #ffcc00; }
+  .inernet-banking #intro {
+    background: #111 url(../images/intro-bg.jpg) no-repeat center;
+    overflow: hidden; }
+  .inernet-banking .slides {
+    max-height: 660px;
+    overflow: hidden; }
+  .inernet-banking .slider-text {
+    color: #737E8C;
+    text-align: center;
+    width: 85%;
+    margin: 156px auto 66px auto; }
+  .inernet-banking .slider-text h2 {
+    font: 56px/78px montserrat-regular, Sans-serif;
+    color: #fff;
+    text-shadow: 0px 1px 5px rgba(50, 50, 50, 0.5);
+    padding: 0;
+    margin: 0; }
+  .inernet-banking .slider-text h2 span,
+  .inernet-banking .slider-text a {
+    color: #ffcc00; }
+  .inernet-banking .slider-text p {
+    font: 17px/36px opensans-light, sans-serif;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+    padding: 0;
+    margin: 18px 10% 0; }
+  .inernet-banking .flex-direction-nav a {
+    display: block;
+    width: 40px;
+    height: 66px;
+    margin: 0;
+    background-color: #2D3339;
+    cursor: pointer;
+    z-index: 99999;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; }
+  .inernet-banking .flex-direction-nav a:hover {
+    background-color: #11ABB0; }
+  .inernet-banking .flex-direction-nav .flex-next {
+    right: 0px;
+    background: #ffcc00 url(../images/direction-nav-right.png) no-repeat 53% 50%;
+    position: absolute; }
+  .inernet-banking .flex-direction-nav .flex-prev {
+    left: 0px;
+    background: #ffcc00 url(../images/direction-nav-left.png) no-repeat 47% 50%;
+    position: absolute; }
+  .inernet-banking .flexslider:hover .flex-next,
+  .inernet-banking .flexslider:hover .flex-prev {
+    opacity: 1; }
+  .inernet-banking .flex-direction-nav .flex-disabled {
+    opacity: .3 !important;
+    filter: alpha(opacity=30);
+    cursor: default; }
+  .inernet-banking #accounts {
+    background: #1b1e21 url(../images/patterns/servicesbg.png);
+    padding-top: 156px;
+    padding-bottom: 120px;
+    color: #4E565F; }
+  .inernet-banking #accounts a, .inernet-banking #accounts a:visited {
+    color: #C4C4C4; }
+  .inernet-banking #accounts a:hover, .inernet-banking #accounts a:focus {
+    color: #11ABB0; }
+  .inernet-banking #accounts .section-head h2 {
+    color: #11ABB0; }
+  .inernet-banking #accounts .section-head p.desc,
+  .inernet-banking #accounts .section-head .intro {
+    color: #57606B; }
+  .inernet-banking .services-wrapper {
+    margin-top: 42px; }
+  .inernet-banking .services-wrapper .col {
+    width: 33.33333%;
+    margin-bottom: 30px; }
+  .inernet-banking .services-wrapper h2 {
+    font: 16px/24px montserrat-bold, sans-serif;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #C4C4C4;
+    margin-bottom: 18px; }
+  .inernet-banking .services-wrapper p {
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 10px;
+    color: #ccc; }
+  .inernet-banking .onlineBankingList li {
+    color: #ccc; }
+  .inernet-banking #accounts .services-wrapper i {
+    margin-right: 10px; }
+  .inernet-banking #cards {
+    background: #f5f5f5 url(../images/patterns/grey.png);
+    padding-top: 156px;
+    padding-bottom: 120px; }
+  .inernet-banking #cards .section-head h2 {
+    color: #0f9095; }
+  .inernet-banking #cards .section-head p.desc {
+    color: #999999; }
+  .inernet-banking #cards .section-head .intro {
+    color: #A3A3A3; }
+  .inernet-banking #portfolio-wrapper {
+    margin-top: 36px; }
+  .inernet-banking #portfolio-wrapper .col {
+    width: 25%;
+    margin-bottom: 36px; }
+  .inernet-banking .portfolio-item .item-wrap {
+    background: #fff;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 1px 1px rgba(50, 50, 50, 0.1);
+    -moz-box-shadow: 0px 1px 1px rgba(50, 50, 50, 0.1);
+    box-shadow: 0px 1px 1px rgba(50, 50, 50, 0.1);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    height: 300px;
+    padding: 20px; }
+  .inernet-banking .portfolio-item .item-wrap a {
+    display: block; }
+  .inernet-banking .portfolio-item .portfolio-item-meta {
+    padding: 12px 0; }
+  .inernet-banking .portfolio-item .portfolio-item-meta h5 a {
+    font: 13px/24px montserrat-bold, sans-serif;
+    color: #0f9095;
+    margin-left: 7%; }
+  .inernet-banking .portfolio-item:hover .item-wrap {
+    background-color: #0f9095; }
+  .inernet-banking .portfolio-item:hover h5 a {
+    color: #fff !important; }
+  .inernet-banking .reveal-modal-bg {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 100;
+    display: none;
+    top: 0;
+    left: 0; }
+  .inernet-banking .reveal-modal {
+    visibility: hidden;
+    top: 100px;
+    left: 50%;
+    margin-left: -300px;
+    width: 600px;
+    max-width: 600px;
+    background: #fff;
+    position: absolute;
+    z-index: 101;
+    padding: 0;
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    -box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); }
+  .inernet-banking .reveal-modal .description-box {
+    padding: 18px 36px; }
+  .inernet-banking .reveal-modal .description-box h4 {
+    font: 15px/24px montserrat-bold, sans-serif;
+    margin-bottom: 18px;
+    color: #111; }
+  .inernet-banking .reveal-modal .description-box p {
+    font: 13px/24px opensans-regular, sans-serif;
+    color: #A1A1A1;
+    margin-bottom: 18px; }
+  .inernet-banking .reveal-modal .description-box .categories {
+    font: 11px/24px opensans-regular, sans-serif;
+    color: #A1A1A1;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: block; }
+  .inernet-banking .reveal-modal .description-box .categories i {
+    margin-right: 8px; }
+  .inernet-banking .reveal-modal .link-box {
+    padding: 18px 36px;
+    background: #111;
+    text-align: left; }
+  .inernet-banking .reveal-modal .link-box a {
+    color: #fff;
+    font: 11px/24px opensans-regular, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    cursor: pointer; }
+  .inernet-banking .reveal-modal a:hover {
+    color: #00CCCC; }
+  .inernet-banking .reveal-modal a.close-reveal-modal {
+    margin-left: 28px; }
+  .inernet-banking #investment {
+    background-color: rgba(255, 204, 0, 0.88);
+    padding-top: 156px;
+    padding-bottom: 120px;
+    color: #ffffff; }
+  .inernet-banking #investment a, .inernet-banking #investment a:visited {
+    color: #fff; }
+  .inernet-banking #investment a:hover, .inernet-banking #investment a:focus {
+    color: #005757; }
+  .inernet-banking #investment .section-head h2 {
+    color: #fff; }
+  .inernet-banking #investment .section-head p.desc,
+  .inernet-banking #investment .section-head .intro {
+    color: #C2F1F5; }
+  .inernet-banking #investment .blog-entries {
+    margin-top: 54px; }
+  .inernet-banking #investment .entry {
+    margin-bottom: 12px; }
+  .inernet-banking #investment .blog-entries .entry-header {
+    position: relative;
+    margin-bottom: 6px; }
+  .inernet-banking #investment .entry-header .entry-title {
+    padding-left: 38px; }
+  .inernet-banking #investment .entry-header h3 {
+    font: 30px/42px montserrat-regular, sans-serif; }
+  .inernet-banking #investment .entry-header .author-image img {
+    position: absolute;
+    top: 12px;
+    left: 18px;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+    height: 60px;
+    -moz-border-radius: 100% 100% 100% 100%;
+    -webkit-border-radius: 100% 100% 100% 100%;
+    -khtml-border-radius: 100% 100% 100% 100%;
+    border-radius: 100% 100% 100% 100%; }
+  .inernet-banking #investment .entry .post-meta {
+    font: 14px/24px opensans-regular, sans-serif;
+    color: #fff;
+    margin-top: 12px;
+    margin-bottom: 0; }
+  .inernet-banking #investment .entry .post-meta time,
+  .inernet-banking #investment .entry .post-meta .dauthor {
+    display: block; }
+  .inernet-banking #investment .entry .post-meta time {
+    font-family: montserrat-bold, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+  .inernet-banking #investment .entry .post-content {
+    padding-left: 38px; }
+  .inernet-banking #investment .entry .post-content p {
+    font: 16px/30px opensans-regular, sans-serif; }
+  .inernet-banking #investment .entry .post-content a.more-link {
+    font: 15px/30px opensans-bold, sans-serif;
+    margin-left: 3px; }
+  .inernet-banking #investment .entry .post-content a.more-link i {
+    margin-left: 10px;
+    font-size: 14px; }
+  .inernet-banking #insurance {
+    background: #fff url(../images/patterns/grey.png);
+    padding-top: 156px;
+    padding-bottom: 144px;
+    color: #A3A3A3; }
+  .inernet-banking #insurance .section-head h2,
+  .inernet-banking #insurance h4, .inernet-banking #insurance h5 {
+    color: #0f9095; }
+  .inernet-banking #insurance .section-head p.desc {
+    color: #999999; }
+  .inernet-banking #insurance .section-head .intro {
+    color: #A3A3A3; }
+  .inernet-banking #insurance h3 {
+    font: 24px/30px montserrat-regular, sans-serif;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    color: #6E6E6E; }
+  .inernet-banking #insurance .process-wrap .col {
+    width: 25%; }
+  .inernet-banking #insurance .team-wrap {
+    margin-bottom: 24px; }
+  .inernet-banking #insurance .team-wrap .col {
+    margin-bottom: 24px; }
+  .inernet-banking #insurance .process-wrap h4 {
+    font: 15px/24px montserrat-bold, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase; }
+  .inernet-banking #insurance .team-wrap h5 {
+    font: 14px/24px montserrat-bold, sans-serif; }
+  .inernet-banking #insurance .team-wrap span {
+    position: relative;
+    top: -6px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #969696; }
+  .inernet-banking #insurance .team-wrap .member-social {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 18px;
+    color: #969696;
+    margin: 0;
+    padding: 0; }
+  .inernet-banking #insurance .team-wrap .member-social li {
+    display: inline-block;
+    margin-right: 15px; }
+  .inernet-banking #insurance .team-wrap .member-social li a {
+    color: #8C8C8C; }
+  .inernet-banking #insurance .team-wrap .member-social li a:hover {
+    color: #0f9095; }
+  .inernet-banking .testimonials {
+    margin-top: 30px; }
+  .inernet-banking .testimonials .client-author {
+    position: relative; }
+  .inernet-banking .testimonials .client-author img {
+    height: 66px;
+    width: 66px;
+    -moz-border-radius: 100% 100% 100% 100%;
+    -webkit-border-radius: 100% 100% 100% 100%;
+    -khtml-border-radius: 100% 100% 100% 100%;
+    border-radius: 100% 100% 100% 100%; }
+  .inernet-banking .testimonials .client-author .name {
+    font: 14px/24px montserrat-bold, sans-serif;
+    color: #0f9095;
+    position: absolute;
+    top: 6px;
+    left: 80px; }
+  .inernet-banking .testimonials .client-author span {
+    font-family: opensans-regular, sans-serif;
+    line-height: 18px;
+    font-size: 13px;
+    color: #969696;
+    display: block; }
+  .inernet-banking .testimonials .client-cite {
+    font: 18px/36px opensans-light, sans-serif; }
+  .inernet-banking #call-to-action {
+    background-color: #0f9095;
+    padding-top: 60px;
+    padding-bottom: 72px;
+    color: #7fe6ed; }
+  .inernet-banking #call-to-action .action {
+    margin-top: 12px; }
+  .inernet-banking #call-to-action h2 {
+    font: 34px/42px montserrat-bold, sans-serif;
+    color: #fff;
+    letter-spacing: -1px;
+    margin-bottom: 3px; }
+  .inernet-banking #call-to-action h2 a {
+    color: inherit; }
+  .inernet-banking #call-to-action p {
+    font-size: 17px; }
+  .inernet-banking #call-to-action .button {
+    background: #036569; }
+  .inernet-banking #call-to-action .button:hover,
+  .inernet-banking #call-to-action .button:active {
+    background: #fff;
+    color: #0F9095; }
+  .inernet-banking #call-to-action p span {
+    font-family: opensans-semibold, sans-serif;
+    color: #fff; }
+  .inernet-banking #map {
+    display: block;
+    width: 100%;
+    background-color: #F6F4EF; }
+  .inernet-banking #map img {
+    max-width: inherit !important; }
+  .inernet-banking #map .map-error {
+    text-align: center;
+    padding-top: 48px;
+    color: #C0B491;
+    font-size: 14px; }
+  .inernet-banking #contact {
+    background-color: #25292D;
+    padding-top: 108px;
+    padding-bottom: 120px;
+    color: #707B89; }
+  .inernet-banking #contact a, .inernet-banking #contact a:visited {
+    color: #C4C4C4; }
+  .inernet-banking #contact a:hover, .inernet-banking #contact a:focus {
+    color: #11ABB0; }
+  .inernet-banking #contact .section-head {
+    margin-bottom: 42px; }
+  .inernet-banking #contact .section-head h2 {
+    color: #11ABB0; }
+  .inernet-banking #contact .section-head p.desc,
+  .inernet-banking #contact .intro {
+    color: #57606B; }
+  .inernet-banking #contact form {
+    margin-bottom: 30px; }
+  .inernet-banking #contact label {
+    font: 15px/24px opensans-semibold, sans-serif;
+    margin: 12px 0;
+    color: #fff;
+    display: inline-block;
+    float: left;
+    width: 22%; }
+  .inernet-banking #contact input,
+  .inernet-banking #contact textarea,
+  .inernet-banking #contact select {
+    padding: 18px 20px;
+    color: #eee;
+    background: #3F464B;
+    margin-bottom: 42px;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    line-height: 24px;
+    width: 66%; }
+  .inernet-banking #contact input:focus,
+  .inernet-banking #contact textarea:focus,
+  .inernet-banking #contact select:focus {
+    color: #fff;
+    background-color: #11ABB0; }
+  .inernet-banking #contact button.submit {
+    font: 18px/30px montserrat-bold, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fff;
+    background: #11ABB0;
+    padding: 18px 30px;
+    border: none;
+    cursor: pointer;
+    height: auto;
+    display: inline-block;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+    margin-left: 22%; }
+  .inernet-banking #contact button.submit:hover {
+    color: #25292D;
+    background: #fff; }
+  .inernet-banking #contact span.required {
+    color: #11ABB0;
+    font-size: 13px; }
+  .inernet-banking #message-warning, .inernet-banking #message-success {
+    display: none;
+    background: #151719;
+    padding: 24px 24px;
+    margin-bottom: 36px;
+    width: 88%; }
+  .inernet-banking #message-warning {
+    color: #D72828; }
+  .inernet-banking #message-success {
+    color: #11ABB0; }
+  .inernet-banking #message-warning i,
+  .inernet-banking #message-success i {
+    margin-right: 10px; }
+  .inernet-banking #image-loader {
+    display: none;
+    position: relative;
+    left: 18px;
+    top: 12px; }
+  .inernet-banking #contact aside h3 {
+    font: 21px/30px montserrat-bold, sans-serif;
+    margin-bottom: 18px;
+    color: #11ABB0; }
+  .inernet-banking .post {
+    background: #f5f5f5 url(../images/patterns/grey.png);
+    padding-top: 120px;
+    padding-bottom: 90px; }
+  .inernet-banking .post .entry-header {
+    position: relative;
+    width: 100%; }
+  .inernet-banking .post .entry-header h1 {
+    font: 45px/60px montserrat-regular, sans-serif;
+    color: #313131;
+    width: 83.33333%;
+    padding-right: 12%;
+    float: right; }
+  .inernet-banking .post .post-meta {
+    float: left;
+    text-align: right;
+    width: 16.66667%;
+    color: #bec0c1;
+    padding-right: 36px;
+    font: 14px/24px opensans-regular, sans-serif;
+    margin: 6px 0 6px 0; }
+  .inernet-banking .post .post-meta a,
+  .inernet-banking .post .post-meta a:visited {
+    color: #B9BBBC; }
+  .inernet-banking .post .post-meta a:hover,
+  .inernet-banking .post .post-meta a:focus {
+    color: #11ABB0; }
+  .inernet-banking .post .post-meta .date {
+    margin-bottom: 18px;
+    display: block; }
+  .inernet-banking .post .post-meta .date:before,
+  .inernet-banking .post .post-meta .categories:before {
+    display: block;
+    font: 14px/24px opensans-bold, sans-serif;
+    color: #313131;
+    text-align: right; }
+  .inernet-banking .post .post-meta .date:before {
+    content: "Published"; }
+  .inernet-banking .post .post-meta .categories:before {
+    content: "Categories"; }
+  .inernet-banking .post .post-meta .categories a {
+    display: block; }
+  .inernet-banking .post .post-meta .categories .sep {
+    display: none; }
+  .inernet-banking .post .post-image {
+    margin: 24px 0 36px 0;
+    width: 100%; }
+  .inernet-banking .post .post-content {
+    margin-bottom: 24px;
+    width: 75%; }
+  .inernet-banking .post .post-content .tags {
+    margin-top: 18px;
+    font-family: opensans-light, sans-serif; }
+  .inernet-banking .post .post-content .tags a {
+    font-family: opensans-bold, sans-serif; }
+  .inernet-banking .post .bio {
+    margin-top: 48px;
+    padding-top: 29px;
+    border-top: 1px solid #E0E0E0; }
+  .inernet-banking .post .bio .gravatar {
+    width: 16.66667%;
+    float: left;
+    width: 72px;
+    height: 72px; }
+  .inernet-banking .post .bio .gravatar img {
+    margin-top: 12px;
+    -moz-border-radius: 100% 100% 100% 100%;
+    -webkit-border-radius: 100% 100% 100% 100%;
+    -khtml-border-radius: 100% 100% 100% 100%;
+    border-radius: 100% 100% 100% 100%; }
+  .inernet-banking .post .bio .insurance {
+    width: 83.33333%;
+    float: right; }
+  .inernet-banking .post .bio .insurance h5 {
+    font: 16px/30px opensans-bold, sans-serif;
+    margin-bottom: 6px; }
+  .inernet-banking .post .post-nav {
+    margin: 24px 0;
+    padding: 30px 0 0 0;
+    border-top: 1px solid #E0E0E0;
+    font: 16px/30px opensans-light, sans-serif; }
+  .inernet-banking .post .post-nav li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 49%;
+    line-height: 30px; }
+  .inernet-banking .post .post-nav li a {
+    color: #a3a3a3; }
+  .inernet-banking .post .post-nav li a:hover {
+    color: #333; }
+  .inernet-banking .post .post-nav li strong {
+    font: 15px/30px opensans-bold, sans-serif;
+    text-transform: uppercase;
+    color: #11ABB0;
+    letter-spacing: 1px;
+    display: block; }
+  .inernet-banking .post .post-nav li.next {
+    float: right;
+    text-align: right; }
+  .inernet-banking .post .post-nav li.prev {
+    float: left;
+    text-align: left; }
+  .inernet-banking #comments {
+    background: #E6E8EB;
+    padding-bottom: 90px;
+    padding-top: 101px;
+    border-top: 1px solid #E0E3E6; }
+  .inernet-banking #comments h3 {
+    font: 20px/30px opensans-bold, sans-serif;
+    margin-bottom: 6px;
+    margin-left: 16.66667%;
+    color: #313131; }
+  .inernet-banking ol.commentlist {
+    border-top: 1px solid #D5D9DC;
+    margin: 29px 0 54px 0;
+    padding: 0;
+    width: 75%;
+    margin-left: 16.66667%; }
+  .inernet-banking .commentlist > li {
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 18px 0 17px 0;
+    border-bottom: 1px solid #D5D9DC; }
+  .inernet-banking .commentlist li .avatar {
+    position: absolute;
+    left: -40px;
+    display: block;
+    height: 50px;
+    width: 50px; }
+  .inernet-banking .commentlist li .avatar img {
+    margin-top: 6px;
+    height: 50px;
+    width: 50px;
+    -moz-border-radius: 100% 100% 100% 100%;
+    -webkit-border-radius: 100% 100% 100% 100%;
+    -khtml-border-radius: 100% 100% 100% 100%;
+    border-radius: 100% 100% 100% 100%; }
+  .inernet-banking .commentlist li .comment-info cite {
+    font: 15px/30px opensans-bold, sans-serif;
+    color: #454545; }
+  .inernet-banking .commentlist li .comment-info .comment-meta {
+    font-size: 12px;
+    line-height: 24px;
+    display: block; }
+  .inernet-banking .commentlist li .comment-info .comment-meta .reply {
+    font-family: opensans-semibold, sans-serif; }
+  .inernet-banking .commentlist li .comment-info .comment-meta .sep {
+    margin: 0 5px;
+    color: #AEB6B7; }
+  .inernet-banking .commentlist li .comment-text {
+    clear: both;
+    margin: 24px 0 0 0;
+    padding: 0;
+    line-height: 24px; }
+  .inernet-banking .commentlist li ul.children {
+    margin: 0;
+    padding: 18px 0 0 0; }
+  .inernet-banking .commentlist li ul.children li {
+    padding-left: 5%;
+    padding-top: 17px;
+    border-top: 1px solid #D5D9DC; }
+  .inernet-banking #comments form {
+    margin-top: 30px;
+    margin-left: 16.66667%; }
+  .inernet-banking #comments form label {
+    font: 14px/24px opensans-bold, sans-serif;
+    margin: 12px 0;
+    color: #3d4145; }
+  .inernet-banking #comments form input,
+  .inernet-banking #comments form textarea,
+  .inernet-banking #comments form select {
+    padding: 18px 18px;
+    color: #3d4145;
+    background: #CFD4D8;
+    margin-bottom: 24px;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    line-height: 24px;
+    width: 60%; }
+  .inernet-banking #comments form input:focus,
+  .inernet-banking #comments form textarea:focus,
+  .inernet-banking #comments form select:focus {
+    color: #fff;
+    background-color: #3d4145; }
+  .inernet-banking #comments form button.submit {
+    font: 18px/30px montserrat-bold, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fff;
+    background: #11ABB0;
+    padding: 18px 24px;
+    border: none;
+    cursor: pointer;
+    height: auto;
+    display: block;
+    margin-top: 36px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px; }
+  .inernet-banking #comments form button.submit:hover {
+    background: #3d4145; }
+  .inernet-banking #comments form span.required {
+    color: #11ABB0;
+    font-size: 13px; }
+  .inernet-banking .journal-bottom-nav {
+    margin-top: 36px;
+    margin-left: 16.66667%;
+    padding-top: 5px;
+    border-top: 1px solid #D1D6DB; }
+  .inernet-banking .bottom-nav {
+    margin: 0;
+    padding: 12px 0;
+    font: 14px/36px opensans-bold, sans-serif; }
+  .inernet-banking .bottom-nav li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    line-height: 24px; }
+  .inernet-banking .bottom-nav li i {
+    margin-left: 5px; }
+  .inernet-banking .bottom-nav li a:hover {
+    color: #3d4145; }
+  .inernet-banking .bottom-nav .sep {
+    font: 16px/36px opensans-light, sans-serif;
+    margin: 0 6px;
+    color: #C0C7CE; }
+  .inernet-banking #blog-entries {
+    background: #f5f5f5 url(../images/patterns/grey.png);
+    padding-bottom: 48px; }
+  .inernet-banking #blog-entries .post {
+    padding-bottom: 53px;
+    border-bottom: 1px solid #E0E0E0; }
+  .inernet-banking #blog-entries .post .entry-header h1 a,
+  .inernet-banking #blog-entries .post .entry-header h1 a:visited {
+    color: #313131; }
+  .inernet-banking #blog-entries .post .entry-header h1 a:hover,
+  .inernet-banking #blog-entries .post .entry-header h1 a:focus {
+    color: #11ABB0; }
+  .inernet-banking #blog-entries .post .post-content p {
+    font: 20px/36px opensans-light, sans-serif; }
+  .inernet-banking #blog-entries .post-content a.more-link {
+    font: 14px/30px opensans-bold, sans-serif;
+    margin-top: 18px;
+    padding: 6px 18px;
+    background: #838A91;
+    color: #fff;
+    display: inline-block;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px; }
+  .inernet-banking #blog-entries .post-content a.more-link:hover {
+    background: #11ABB0; }
+  .inernet-banking #blog-entries .post-content a.more-link i {
+    margin-left: 10px; }
+  .inernet-banking .pagination {
+    margin: 36px auto 12px auto; }
+  .inernet-banking .pagination ul li {
+    display: inline-block;
+    margin: 0;
+    padding: 0; }
+  .inernet-banking #bottom-block {
+    background: #E6E8EB;
+    padding-top: 24px;
+    padding-bottom: 30px;
+    border-top: 1px solid #E0E0E0; }
+  .inernet-banking #bottom-block .blog-categories {
+    font: 13px/30px opensans-semibold, sans-serif;
+    margin: 0;
+    padding: 0; }
+  .inernet-banking #bottom-block .blog-categories li {
+    display: inline;
+    margin-right: 15px; }
+  .inernet-banking #bottom-block .blog-categories li.current a {
+    color: #11ABB0; }
+  .inernet-banking #bottom-block .blog-categories a {
+    color: #A0A6AB; }
+  .inernet-banking #bottom-block .blog-categories a:hover {
+    color: #5B6167; }
+  .inernet-banking #bottom-block .back-to-top {
+    text-align: right; }
+  .inernet-banking #bottom-block .back-to-top a i {
+    margin-left: 6px; }
+  .inernet-banking #bottom-block .back-to-top a {
+    font: 14px/30px opensans-bold, sans-serif;
+    color: #11ABB0; }
+  .inernet-banking footer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #303030;
+    font-size: 14px; }
+  .inernet-banking footer a, .inernet-banking footer a:visited {
+    color: #0B686B; }
+  .inernet-banking footer a:hover, .inernet-banking footer a:focus {
+    color: #fff; }
+  .inernet-banking footer .copyright {
+    margin: 0;
+    padding: 0; }
+  .inernet-banking footer .copyright li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    line-height: 24px; }
+  .inernet-banking .ie footer .copyright li {
+    display: inline; }
+  .inernet-banking footer .copyright li:before {
+    content: "|";
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #095153; }
+  .inernet-banking footer .copyright li:first-child:before {
+    display: none; }
+  .inernet-banking footer .social-links {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    margin-top: -3px;
+    float: right; }
+  .inernet-banking footer .social-links li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-left: 24px; }
+  .inernet-banking footer .social-links li:first-child {
+    margin-left: 0; }
+  @media only screen and (max-width: 836px) {
+    .inernet-banking {
+      /* adjust sections padding top */
+      /* adjust font size */
+      /* intro section
+      -------------------------------------------------------------------- */
+      /* services section
+      -------------------------------------------------------------------- */
+      /* cards section
+      -------------------------------------------------------------------- */
+      /* journal section
+      -------------------------------------------------------------------- */
+      /* insurance section
+      -------------------------------------------------------------------- */
+      /* Call To Action Section
+      /* ----------------------------------------------------------------- */
+      /* insurance section
+      -------------------------------------------------------------------- */
+      /* contact section
+      ----------------------------------------------------------------------- */
+      /* left clearing */
+      /* blog
+      -------------------------------------------------------------------- */ }
+      .inernet-banking #accounts, .inernet-banking #investment,
+      .inernet-banking #cards, .inernet-banking #insurance {
+        padding-top: 120px; }
+      .inernet-banking .intro, .inernet-banking .testimonies .client-cite {
+        font-size: 18px; }
+      .inernet-banking .slider-text h2 {
+        font: 48px/66px montserrat-regular, Sans-serif; }
+      .inernet-banking #accounts .section-head .col {
+        width: 100%; }
+      .inernet-banking #accounts .services-wrapper {
+        margin-top: 12px; }
+      .inernet-banking #accounts .services-wrapper .col {
+        width: 50%; }
+      .inernet-banking #accounts .services-wrapper .col {
+        margin-bottom: 0; }
+      .inernet-banking #cards #portfolio-wrapper {
+        margin-top: 12px; }
+      .inernet-banking #cards #portfolio-wrapper .col {
+        width: 33.33333%; }
+      .inernet-banking #investment .blog-entries {
+        margin-top: 30px; }
+      .inernet-banking #insurance .process-wrap .col {
+        width: 50%; }
+      .inernet-banking #call-to-action p {
+        font-size: 16px; }
+      .inernet-banking #call-to-action .button {
+        font-size: 14px; }
+      .inernet-banking #insurance .section-head .col {
+        width: 100%; }
+      .inernet-banking #contact label {
+        width: 25%; }
+      .inernet-banking #contact button.submit {
+        margin-left: 25%; }
+      .inernet-banking #contact input,
+      .inernet-banking #contact textarea,
+      .inernet-banking #contact select {
+        width: 70%; }
+      .inernet-banking #message-warning, .inernet-banking #message-success {
+        width: 95%; }
+      .inernet-banking .first {
+        clear: none; }
+      .inernet-banking .m-first {
+        clear: left; }
+      .inernet-banking .post, .inernet-banking #blog-entries .post {
+        padding-top: 96px; }
+      .inernet-banking .post p.lead, .inernet-banking #blog-entries .post .post-content p {
+        font-size: 18px; }
+      .inernet-banking .post .entry-header h1 {
+        padding-right: 18px;
+        font-size: 43px; }
+      .inernet-banking .post .post-meta {
+        margin-top: 6px; }
+      .inernet-banking .post .post-image {
+        margin: 12px 0 24px 0; }
+      .inernet-banking .post .bio .insurance {
+        padding-left: 18px; } }
+  @media only screen and (max-width: 767px) {
+    .inernet-banking {
+      /* center align some text */
+      /* mobile navigation
+      -------------------------------------------------------------------- */
+      /* toggle buttons */
+      /* hide menu panel */
+      /* display menu panels */
+     /* intro section
+    -------------------------------------------------------------------- */
+      /* cards section
+      --------------------------------------------------------------------- */
+      /* investment section
+      --------------------------------------------------------------------- */
+      /* insurance section
+      ----------------------------------------------------------------------- */
+      /* Call To Action Section
+      /* ----------------------------------------------------------------- */
+      /* contact section
+      ----------------------------------------------------------------------- */
+      /* Blog Post
+      ------------------------------------------------------------------ */
+      /* show sep */
+      /* bio */
+      /* post-nav */
+      /* Comments*/
+      /* Comments List */
+      /* comment form */
+      /* journal bottom nav */
+      /* Blog-Entries
+      ------------------------------------------------------------------ */
+      /* footer
+      ------------------------------------------------------------------------ */ }
+      .inernet-banking .section-head, .inernet-banking .intro, .inernet-banking #insurance h3,
+      .inernet-banking #investment .entry-header {
+        text-align: center; }
+      .inernet-banking header.mobile {
+        height: 66px; }
+      .inernet-banking header.mobile .logo a {
+        top: 22px; }
+      .inernet-banking .mobile #nav-wrap {
+        position: absolute;
+        top: 0;
+        right: 20px;
+        width: auto;
+        margin: 0; }
+      .inernet-banking .mobile #nav-wrap > a {
+        width: 48px;
+        height: 48px;
+        text-align: left;
+        background-color: #ffcc00;
+        position: relative;
+        border: none;
+        float: right;
+        font: 0/0 a;
+        text-shadow: none;
+        color: transparent; }
+      .inernet-banking .mobile #nav-wrap > a:before,
+      .inernet-banking .mobile #nav-wrap > a:after {
+        position: absolute;
+        border: 2px solid #fff;
+        top: 35%;
+        left: 25%;
+        right: 25%;
+        content: ''; }
+      .inernet-banking .mobile #nav-wrap > a:after {
+        top: 60%; }
+      .inernet-banking .mobile #nav-wrap:not(:target) > a:first-of-type,
+      .inernet-banking .mobile #nav-wrap:target > a:last-of-type {
+        display: block; }
+      .inernet-banking .mobile #nav-wrap ul#nav {
+        height: auto;
+        display: none;
+        clear: both; }
+      .inernet-banking .mobile #nav-wrap ul#nav li {
+        display: block;
+        width: 100%;
+        height: 100%;
+        text-align: left; }
+      .inernet-banking .mobile #nav-wrap ul#nav > li.active a {
+        color: #11ABB0 !important;
+        background: none; }
+      .inernet-banking .mobile #nav-wrap:target > ul#nav {
+        display: block;
+        padding: 12px 25px 24px 25px;
+        background: #4c4e5a;
+        margin: 0;
+        clear: both; }
+      .inernet-banking .mobile #nav-wrap ul#nav li {
+        border-bottom: 1px dotted #595B6A; }
+      .inernet-banking .mobile #nav-wrap ul#nav li a {
+        margin: 0;
+        padding: 0;
+        font-size: 13px;
+        margin: 10px 0;
+        line-height: 14px;
+        border: none; }
+      .inernet-banking .slider-text {
+        margin-top: 120px;
+        margin-bottom: 48px; }
+      .inernet-banking .slider-text h2 {
+        font: 43px/54px montserrat-regular, sans-serif; }
+      .inernet-banking .slider-text p {
+        font: 14px/30px opensans-regular, sans-serif;
+        margin-top: 30px; }
+      .inernet-banking .slides {
+        overflow: hidden;
+        min-height: 300px; }
+      .inernet-banking .reveal-modal {
+        margin-left: -42%;
+        width: 84%; }
+      .inernet-banking #investment .entry-header .author-image {
+        display: none; }
+      .inernet-banking #investment .entry-header .entry-title {
+        padding-left: 20px;
+        margin-bottom: 18px; }
+      .inernet-banking #investment .entry .post-content {
+        padding-left: 20px;
+        margin-top: 6px; }
+      .inernet-banking #investment .entry .post-meta time,
+      .inernet-banking #investment .entry .post-meta .dauthor {
+        display: inline; }
+      .inernet-banking #investment .entry .post-meta .dauthor:before {
+        content: "/";
+        padding-left: 5px;
+        padding-right: 5px; }
+      .inernet-banking .testimonials {
+        text-align: center; }
+      .inernet-banking .testimonials .client-author .name {
+        position: static; }
+      .inernet-banking .testimonials .client-author span {
+        display: inline; }
+      .inernet-banking .testimonials .client-author span:before {
+        content: "/";
+        padding-left: 5px;
+        padding-right: 5px; }
+      .inernet-banking #call-to-action {
+        text-align: center;
+        padding-top: 60px;
+        padding-bottom: 42px; }
+      .inernet-banking #call-to-action h2 {
+        font: 30px/36px montserrat-bold, sans-serif;
+        letter-spacing: -0.5px;
+        margin-bottom: 6px; }
+      .inernet-banking #call-to-action .button {
+        padding-top: 12px;
+        padding-bottom: 12px; }
+      .inernet-banking #contact label {
+        display: block;
+        float: none;
+        width: auto; }
+      .inernet-banking #contact input,
+      .inernet-banking #contact textarea,
+      .inernet-banking #contact select {
+        width: 100%;
+        margin-bottom: 30px; }
+      .inernet-banking #contact button.submit {
+        margin-left: 0; }
+      .inernet-banking #message-warning,
+      .inernet-banking #message-success {
+        width: 100%; }
+      .inernet-banking .post, .inernet-banking #blog-entries .post {
+        padding-top: 84px; }
+      .inernet-banking .post .entry-header h1 {
+        float: none;
+        width: 100%;
+        font-size: 32px;
+        line-height: 42px;
+        text-align: center; }
+      .inernet-banking .post .post-meta {
+        float: none;
+        width: 100%;
+        padding-right: 0;
+        text-align: center; }
+      .inernet-banking .post .post-meta .categories,
+      .inernet-banking .post .post-meta .date,
+      .inernet-banking .post .post-meta .categories a {
+        display: inline; }
+      .inernet-banking .post .post-meta .date:before,
+      .inernet-banking .post .post-meta .categories:before {
+        content: none; }
+      .inernet-banking .post .post-meta .date {
+        font: 13px/18px opensans-bold, sans-serif;
+        color: #3D4149; }
+      .inernet-banking .post .post-meta .categories {
+        font: 13px/18px opensans-regular, sans-serif; }
+      .inernet-banking .post .post-meta .categories .sep {
+        display: inline;
+        margin-right: 5px;
+        font: 13px/18px opensans-light, sans-serif; }
+      .inernet-banking .post .bio {
+        padding-top: 17px;
+        border-top: 1px solid #E0E0E0; }
+      .inernet-banking .post .bio .gravatar {
+        float: none;
+        width: 72px;
+        margin: 0 auto 18px auto; }
+      .inernet-banking .post .bio .insurance {
+        width: 100%;
+        float: none;
+        padding-left: 0;
+        text-align: center; }
+      .inernet-banking .post .post-nav {
+        margin-top: 18px; }
+      .inernet-banking .post .post-nav li {
+        display: block;
+        margin: 0 0 18px 0;
+        width: 100%; }
+      .inernet-banking .post .post-nav li.next {
+        float: none;
+        text-align: center; }
+      .inernet-banking .post .post-nav li.prev {
+        float: none;
+        text-align: center; }
+      .inernet-banking #comments h3 {
+        text-align: center;
+        margin-left: 0; }
+      .inernet-banking ol.commentlist {
+        width: 100%;
+        margin-left: 0; }
+      .inernet-banking .commentlist li .avatar {
+        display: none; }
+      .inernet-banking #comments form {
+        margin-left: 0; }
+      .inernet-banking #comments form input,
+      .inernet-banking #comments form textarea,
+      .inernet-banking #comments form select {
+        width: 100%; }
+      .inernet-banking .journal-bottom-nav {
+        margin-left: 0;
+        text-align: center; }
+      .inernet-banking #bottom-block .blog-categories {
+        text-align: center; }
+      .inernet-banking #bottom-block .back-to-top {
+        margin-top: 30px;
+        text-align: center; }
+      .inernet-banking footer .copyright li:before {
+        content: none; }
+      .inernet-banking footer .copyright li {
+        margin-right: 10px; }
+      .inernet-banking footer .copyright, .inernet-banking footer .social-links {
+        text-align: center;
+        float: none; }
+      .inernet-banking footer .social-links {
+        margin-top: 12px; } }
+  @media only screen and (max-width: 460px) {
+    .inernet-banking {
+      /* intro section
+      ------------------------------------------------------------------------- */
+     /* journal section
+    ------------------------------------------------------------------------- */ }
+      .inernet-banking .slider-text {
+        margin-top: 108px;
+        margin-bottom: 36px; }
+      .inernet-banking .slider-text h2 {
+        font: 32px/42px montserrat-regular, sans-serif; }
+      .inernet-banking .slider-text p {
+        font: 12px/24px opensans-regular, sans-serif;
+        margin-top: 24px; }
+      .inernet-banking #investment .entry-title h3 {
+        font-size: 28px;
+        line-height: 36px; } }
+  .inernet-banking .f8em:before {
+    font-size: 8em; }
+  .inernet-banking .themefont {
+    color: #ffcc00 !important; }
+
+/*# sourceMappingURL=style.css.map */

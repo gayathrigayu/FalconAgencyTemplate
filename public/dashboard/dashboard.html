@@ -1,0 +1,505 @@
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p0">
+
+  <header class="mobile">
+               <div class="row">
+                  <div class="col full">
+                     <div class="logo">
+                        <a href="#">maybank2u.com</a>
+                     </div>
+                     <nav id="nav-wrap">
+                        <a class="mobile-btn pointer" ng-click="showmobile()" title="Show navigation">Show navigation</a>
+                        <ul id="nav" class="nav"  ng-class="{'showmobile-cls': showmobileflag, 'hidemob-cls': !showmobileflag , '': showmobileflag == 'inital'} ">
+                           <li ng-click="gotoAnchor('intro')" ><a  class="pointer">Home</a></li>
+                           <li><a ng-click="gotoAnchor('accounts')" class="pointer">Accounts</a></li>
+                           <li><a ng-click="gotoAnchor('cards')" class="pointer">Cards</a></li>
+                           <li><a ng-click="gotoAnchor('investment')" class="pointer">Investment</a></li>
+                           <li><a ng-click="gotoAnchor('insurance')" class="pointer">Insurance</a></li>                           
+                           <li><a ng-click="gotoAnchor('loans')" class="pointer">Loans</a></li>
+                           <li><a ng-click="gotoAnchor('contact')"  class="pointer">Other Services</a></li>
+                           <li><a  class="pointer">Login</a></li>
+                        </ul>
+                     </nav>
+                  </div>
+               </div>
+            </header>
+    <!-- Intro Section
+               ================================================== -->
+    <section id="intro" class="anchor" >
+        <!-- Flexslider Start-->
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p0">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 item carousel-items" ng-repeat="item in carousellist" ng-class="{'active': $index == 0 } ">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p0">
+                            <h1 class="txt1"> {{item.name}} </h1>
+
+                            <div class="txt2"> {{item.description}} </div>
+                             <div class="txt3"> {{item.description2}} </div>
+                        </div>
+                       
+                    </div>
+                </div>
+                <!-- Left and right controls -->
+            </div>
+        </div>
+        <!-- Flexslider End-->
+    </section>
+    <!-- Intro Section End-->
+    <!-- Services Section
+               ================================================== -->
+    <section id="accounts" class="anchor">
+        <div class="row section-head">
+            <div class="col one-third">
+                <h2 class="themefont">Accounts & Banking</h2>
+            </div>
+            <div class="col two-thirds">
+                <div class="intro">
+                    <p>Online Banking
+                    </p>
+                    <p class="desc">
+                        <ul class="onlineBankingList" style="padding-bottom: 0px;">
+                            <li>
+                                Online bill payment
+                            </li>
+                            <li>
+                                View online banking demo
+                            </li>
+                            <li>
+                                How to sign up
+                            </li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="services-wrapper">
+                <div class="col">
+                    <h2><i class="glyphicon glyphicon-inbox"></i>Savings Accounts</h2>
+                    <p>Maybank2u Savers</p>
+                    <p> Maybank2u Savers-i</p>
+                    <p>Golden Savers Savings Account</p>
+                    <p>Premier Wadiah Account-i for Minor & In-trust</p>
+                    <p><a>More Savings Accounts.</a>
+                    </p>
+                </div>
+                <div class="col">
+                    <h2><i class="glyphicon glyphicon-stats"></i>Mobile Banking</h2>
+                    <p>Maybank2u Coin Box</p>
+                    <p> Smartphone and Tablets</p>
+                    <p> Maybank2u Mobile</p>
+                    <p> Maybank2u Mobile App</p>
+                    <p> <a>More Mobile Banking.</a>
+                    </p>
+                </div>
+                <div class="col m-first">
+                    <h2><i class="glyphicon glyphicon-camera"></i>Payments</h2>
+                    <p>Maybank2u Pay</p>
+                    <p>AutoDebit</p>
+                    <p>Pay bills via Kawanku ATM</p>
+                    <p>Pay bills with Maybank Scan&Pay</p>
+                    <p><a>More Payments</a>
+                    </p>
+                </div>
+                <div class="col first">
+                    <h2><i class="glyphicon glyphicon-bookmark"></i>Funds Transfers</h2>
+                    <p>Maybank Money Express</p>
+                    <p>Interbank GIRO</p>
+                    <p>Instant Interbank Fund Transfer</p>
+                    <p>Tabung Haji Real Time Payment Solution via Maybank2u</p>
+                    <p>More Funds Transfers</p>
+                </div>
+                <div class="col m-first">
+                    <h2><i class="glyphicon glyphicon-picture"></i>Current Accounts</h2>
+                    <p>Maybank2u.Premier</p>
+                    <p>Premier 1 Account</p>
+                    <p>Personal Current Account</p>
+                    <p>Current Account-i</p>
+                    <p><a>More Current Accounts</a>
+                    </p>
+                </div>
+                <div class="col">
+                    <h2><i class="glyphicon glyphicon-print"></i>Fixed Deposits</h2>
+                    <p>Islamic Fixed Deposit – i (IFD-i)</p>
+                    <p>Profit Now! Account-i (PNA-i)</p>
+                    <p>Fixed Deposit Account</p>
+                    <p>eFixed Deposit</p>
+                    <p><a>More Fixed Deposits.</a>
+                    </p>
+                </div>
+            </div>
+            <!-- Services-Wrapper End -->
+        </div>
+        <!--end row -->
+    </section>
+    <!-- Services Section End -->
+    <!-- Portfolio Section
+               ================================================== -->
+    <section id="cards" class="anchor">
+        <div class="row section-head">
+            <div class="col full">
+                <h2><span class="themefont">Cards</span></h2>
+                <p class="desc">Apply for a Credit Card Online Now.</p>
+            </div>
+        </div>
+        <div class="row">
+            <!-- card Wrapper -->
+            <div id="portfolio-wrapper">
+                <div class="col portfolio-item">
+                    <div class="item-wrap">
+                        <div class="box3">
+                            <div class="box-img-crd2"><img src="images/cards/creditcard-stp-1112.png" alt="" width="220" height="135">
+                            </div>
+                            <div class="box-title-crd2">Credit Cards</div>
+                            <div class="box-subtitle-crd">Maybank Credit Card offers cash rebates, reward points &amp; exclusive privileges.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col portfolio-item">
+                    <div class="item-wrap">
+                        <div class="box3">
+                            <div class="box-img-crd2"><img src="images/cards/chargecard-stp-1112.png" alt="" width="220" height="135">
+                            </div>
+                            <div class="box-title-crd2">Charge Cards</div>
+                            <div class="box-subtitle-crd">The Card that gives prestige, recognition and service</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col portfolio-item">
+                    <div class="item-wrap">
+                        <div class="box3">
+                            <div class="box-img-crd2"><img src="images/cards/debitcard-stp-1112.png" alt="" width="220" height="135">
+                            </div>
+                            <div class="box-title-crd2">Debit Cards</div>
+                            <div class="box-subtitle-crd">Maybank Debit Card is the simplest way to manage your everyday finances</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col portfolio-item">
+                    <div class="item-wrap">
+                        <div class="box3">
+                            <div class="box-img-crd2"><img src="images/cards/prepaidcard-stp-1112.png" alt="" width="220" height="135">
+                            </div>
+                            <div class="box-title-crd2">Prepaid Cards</div>
+                            <div class="box-subtitle-crd">Smart and secure way to control your spending</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Cards Wrapper End -->
+        </div>
+        <!-- End Row -->
+    </section>
+    <!-- Portfolio End -->
+    <!-- Journal Section
+               ================================================== -->
+    <section id="investment" class="anchor">
+        <div class="row section-head">
+            <div class="col full">
+                <h2>Investment</h2>
+            </div>
+        </div>
+        <!-- Blog Entries -->
+        <div class="blog-entries">
+            <!-- Entry -->
+            <article class="entry">
+                <div class="row entry-header">
+                    <div class="col g-9 offset-1 entry-title">
+                        <h3><a>Share Trading</a></h3>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col g-9 offset-1 post-content">
+                        <p>EzyInvest</p>
+                        <p>Mobile Trading</p>
+                        <p>Maybank H.O.T Broking</p>
+                        <p>Maybank Share Trading / Margin Financing (Maybankinvest)</p>
+                        <p> <a href="blog-single.html" class="more-link">More Share Trading<i class="icon-angle-right"></i></a>
+                        </p>
+                    </div>
+                    <div class="col g-2">
+                        <p class="post-meta">
+                            <i class="glyphicon glyphicon-share f8em"></i>
+                        </p>
+                    </div>
+                </div>
+            </article>
+            <!-- Entry End -->
+            <!-- Entry -->
+            <article class="entry">
+                <div class="row entry-header">
+                    <div class="col g-9 offset-1 entry-title">
+                        <h3><a>Wealth Management</a></h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col g-9 offset-1 post-content">
+                        <p>Unit Trusts</p>
+                        <p>Structured Products</p>
+                        <p>Dual Currency Linked Investment</p>
+                        <p>Bull Equity-Linked Investment Note (ELIN)</p>
+                        <p> <a href="blog-single.html" class="more-link">More Wealth Management<i class="icon-angle-right"></i></a>
+                        </p>
+                    </div>
+                    <div class="col g-2">
+                        <p class="post-meta">
+                            <i class="glyphicon glyphicon-inbox f8em"></i>
+                        </p>
+                    </div>
+                </div>
+            </article>
+            <!-- Entry End -->
+            <!-- Entry -->
+            <article class="entry">
+                <div class="row entry-header">
+                    <div class="col g-9 offset-1 entry-title">
+                        <h3><a>Gold & Silver</a></h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col g-9 offset-1 post-content">
+                        <p> Kijang Emas Gold Bullion Coins</p>
+                        <p>Maybank Gold Investment Account</p>
+                        <p>Maybank Silver Investment Account</p>
+
+                    </div>
+                    <div class="col g-2">
+                        <p class="post-meta">
+                            <i class="glyphicon glyphicon-gift f8em"></i>
+                        </p>
+                    </div>
+                </div>
+            </article>
+            <!-- Entry End -->
+            <!-- Entry -->
+            <article class="entry">
+                <div class="row entry-header">
+                    <div class="col g-9 offset-1 entry-title">
+                        <h3><a>ASNB Investment</a></h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col g-9 offset-1 post-content">
+                        <p> AS 1M Unit Trust Additional Investment</p>
+                        <p> ASB Unit Trust Additional Purchase</p>
+                        <p> Amanah Saham Bumiputera 2 (ASB2)</p>
+                        <p> Skim Amanah Saham Bumiputera (ASB)</p>
+
+                    </div>
+                    <div class="col g-2">
+                        <p class="post-meta">
+                            <i class="glyphicon glyphicon-barcode f8em"></i>
+                        </p>
+                    </div>
+                </div>
+            </article>
+            <!-- Entry End -->
+        </div>
+        <!--  Entries End -->
+    </section>
+    <!-- Investment Section End -->
+    <!-- Insurance Section
+               ================================================== -->
+    <section id="insurance" class="anchor">
+        <div class="row section-head">
+            <div class="col one-fourth">
+                <h2 class="themefont">Insurance</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col full">
+                <h3>Insurance Coverage is Just a click away </h3>
+            </div>
+        </div>
+        <div class="row process-wrap">
+            <div class="col">
+                <h4>Car.</h4>
+                <p>I wants to Protect My Car.
+                </p>
+            </div>
+            <div class="col">
+                <h4>Home.</h4>
+                <p>I wants to Protect My Home.
+                </p>
+                <ul>
+                    <li>Home Contents</li>
+                    <li>Home Buildings</li>
+                </ul>
+            </div>
+            <div class="col m-first">
+                <h4>Education.</h4>
+                <p>I wants to save my childrens Education.
+                </p>
+            </div>
+            <div class="col">
+                <h4>Future.</h4>
+                <p>I wants to Save / Invest for my Future.
+                </p>
+            </div>
+
+        </div>
+        <!-- Process Wrap End -->
+    </section>
+    <!-- insurance Section End-->
+
+     <section id="loans">
+     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p0">
+        <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 p20 bg-first h-300">
+            <h4>Latest News </h4>
+            <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 item active carousel-items">
+                        <h3>ASB Financing</h3>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p0">
+                           ASB Financing Loans Available here
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 item carousel-items">
+                        <h3>Personal Loans</h3>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p0">
+                            Maybank Share Trading / Margin Financing (Maybankinvest) H.O.T Broking
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 item carousel-items">
+                        <h3>Car Financing</h3>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p0">
+                            Hire Purchase Car Financing Available here
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 item carousel-items">
+                        <h3>Islamic Financing</h3>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p0">
+                            Easy Installment Payment
+                        </div>
+                    </div>
+                   
+                </div>
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel2" data-slide-to="1"></li>
+                    <li data-target="#myCarousel2" data-slide-to="2"></li>
+                    <li data-target="#myCarousel2" data-slide-to="3"></li>
+                </ol>
+                <!-- Left and right controls -->
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 p0 bg-second h-300">
+            <img src="images/loan.png" class="h-300 " />
+        </div>
+        <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 p0 bg-third h-300">
+            <h3> Mortgage</h3>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p0 bt-txt">
+               <ul class="homeList">
+            
+            <li>MaxiHome Flexi Loan</li>
+            
+            <li>Maybank Property Finder</li>
+            
+            <li>Commodity Murabahah Home Financing-i</li>
+            
+            <li>Commodity Murabahah Shophouse Financing-i</li>
+            
+        </ul>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-12 col-sm-12 col-xs-12 p0 h-300 bg-fourth">
+            <h3>Islamic Financing</h3>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p0 bt-txt">
+               <ul class="homeList">
+            
+            <li>Maybank Islamic Personal Financing-i (MIPF-i)</li>
+            
+            <li>Musharakah Mutanaqisah Term Financing-i (MMTF-i)</li>          
+            
+        </ul>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+    <!-- Map Section
+               ================================================== -->
+    <section id="map">
+       <div id="map-canvas">
+            </div>
+    </section>
+    <!-- Map Section End-->
+
+    <!-- Contact Section
+               ================================================== -->
+    <section id="contact" class="anchor">
+        <div class="row section-head">
+            <div class="col full">
+                <h2 class="themefont">Contact Us</h2>
+                <p class="desc">Get in touch with us.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col g-7">
+                <!-- form -->
+                <form name="contactForm" id="contactForm" method="post" action="">
+                    <fieldset>
+                        <div>
+                            <label for="contactName">Name <span class="required">*</span>
+                            </label>
+                            <input name="contactName" type="text" id="contactName" size="35" value="" />
+                        </div>
+                        <div>
+                            <label for="contactEmail">Email <span class="required">*</span>
+                            </label>
+                            <input name="contactEmail" type="text" id="contactEmail" size="35" value="" />
+                        </div>
+                        <div>
+                            <label for="contactSubject">Subject</label>
+                            <input name="contactSubject" type="text" id="contactSubject" size="35" value="" />
+                        </div>
+                        <div>
+                            <label for="contactMessage">Message <span class="required">*</span>
+                            </label>
+                            <textarea name="contactMessage" id="contactMessage" rows="15" cols="50"></textarea>
+                        </div>
+                        <div>
+                            <button class="submit">Submit</button>
+                            <span id="image-loader">
+                              <img src="images/loader.gif" alt="" />
+                              </span>
+                        </div>
+                    </fieldset>
+                </form>
+                <!-- Form End -->
+                <!-- contact-warning -->
+                <div id="message-warning"></div>
+                <!-- contact-success -->
+                <div id="message-success">
+                    <i class="icon-ok"></i>Your message was sent, thank you!
+                    <br />
+                </div>
+            </div>
+            <aside class="col g-5">
+                <h3 class="themefont">Contact Information</h3>
+                <p>Maybank2u.com.</p>
+                <p>
+                    Maybank
+                    <br /> Kuala Lumpur, Malaysia
+                    <br /> Malaysia
+                </p>
+                <p>
+                    Phone: +60 3-7844 3696
+                    <br /> Email: info [@] maybank.com
+                </p>
+                <br />
+            </aside>
+        </div>
+    </section>
+    <!-- Contact Section End-->
+</div>

@@ -1,0 +1,60 @@
+ <div id="sidebar-wrapper">
+            <ul class="sidebar-nav ">
+               <div id="accordion" role="tablist" aria-multiselectable="true">
+
+                  <div class="panel panel-default">
+                     <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title"  ng-click="callToggle()">
+                           <a data-toggle="collapse" data-parent="#accordion" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          <i class="fa fa fa-fax visibles-xs"></i> 
+                          <span class="xs-ml15 f13 pl15">Auction Announcements</span>
+                           <i class="fa fa-chevron-right pull-right "></i>
+                           <i class="fa fa-chevron-down pull-right " ></i>
+                           </a>
+                        </h4>
+                     </div>
+                     <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                        <ul >
+                           <li class="active"><a ui-sref="dashboard.createAuction" ng-click="refreshCreateAuction()"><i class="glyphicon glyphicon-list-alt mr10"></i><span> Create Auction</span></a></li>
+                           <li><a ui-sref="dashboard.viewAuction" ng-click="refreshViewAuction()"><i class="glyphicon glyphicon-list mr10"></i><span><span>View / Edit Auctions</span></a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="panel panel-default">
+                     <div class="panel-heading" role="tab" id="headingTwo">
+                        <h4 class="panel-title"  ng-click="callToggle()">
+                           <a class="collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <i class="fa fa-life-ring visibles-xs"></i>
+                           <span class="xs-ml15 f13 pl15">Promo Code</span>
+                           <i class="fa fa-chevron-right pull-right "></i>
+                           <i class="fa fa-chevron-down pull-right " ></i>
+                           </a>
+                        </h4>
+                     </div>
+                     <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <ul >
+                           <li ><a ui-sref="dashboard.createPromoCode" ng-click="refreshCreatePromoCode()"><i class="glyphicon glyphicon-list-alt mr10"></i> <span>Create Promo Code</span></a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="panel panel-default">
+                     <div class="panel-heading" role="tab" id="headingThree">
+                        <h4 class="panel-title" ng-click="callToggle()">
+                           <a class="collapsed" data-toggle="collapse" data-parent="#accordion" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <i class="fa fa-money visibles-xs"></i>
+                           <span class="xs-ml15 f13 pl15">Payment Operation</span>
+                           <i class="fa fa-chevron-right pull-right "></i>
+                           <i class="fa fa-chevron-down pull-right " ></i>
+                           </a>
+                        </h4>
+                     </div>
+                     <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <ul >
+                           <li ><a ui-sref="dashboard.bidCard" ng-click="refreshBidCard()"><i class="glyphicon glyphicon-list-alt mr10"></i> <span>Bid Card</span></a></li>
+                           <li><a ui-sref="dashboard.forceUpdate" ng-click="refreshForceUpdate()"><i class="glyphicon glyphicon-list-alt mr10"></i> <span>Force Update</span></a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </ul>           
+         </div>

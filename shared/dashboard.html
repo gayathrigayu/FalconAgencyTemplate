@@ -1,0 +1,9 @@
+<div id="wrapper" class="vam">
+    <!-- Navigation top bar-->
+    <nav role="navigation" style="margin-bottom: 0" ng-controller="TopbarController"  class="navbar navbar-default navbar-static-top nav-custom" ng-include="'shared/TopBarView.html'"></nav>
+    <!-- Navigation side bar-->
+    <div role="navigation" ng-include="'shared/SideBarView.html'" class="navbar-default sidebar nav-sidebar-custom" ng-class="leftmenu" ng-controller="SidebarController">
+    </div>
+    <!-- /#page-wrapper -->
+    <div id="page-content-wrapper" ng-class="mainmenu" class="mainmenu-slide-in" ui-view ng-controller="MaincontentController"></div>
+</div>

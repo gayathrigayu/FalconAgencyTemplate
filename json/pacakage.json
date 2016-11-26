@@ -1,0 +1,22 @@
+{
+    "carousel": [
+        {
+            "id": 1,
+            "name": "Win Over Prizes",
+            "description": "Win Over Prices RS 10,0000 Login or Register",
+            "description2": "Apply Online Quick Access"
+        },
+        {
+            "id": 2,
+            "name": "Replace card free",
+            "description": "​​Replace your Debit or ATM card Free",
+             "description2": "Credit Card - Instalment Payment Plans"
+        },
+        {
+            "id": 3,
+            "name": "Free Cash",
+            "description": "​Free OverSeas Cash on ATM withdrawel",
+            "description2": "Upgrade and Re-Classification of Maybank Foreign Currency Accounts"
+        }
+    ]
+}
